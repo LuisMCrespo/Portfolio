@@ -1,0 +1,21 @@
+.header {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+  height: 7vh;
+}
+.body {
+  background-color: #092327;
+  background-image: -webkit-linear-gradient(30deg, #092327 50%, #0b5351 50%);
+  height: 100vh;
+}
+.text {
+  color: aliceblue;
+  font-size: xx-large;
+  position: absolute;
+  top: 35vh;
+  left: 10vw;
+}
